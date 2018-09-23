@@ -5,7 +5,7 @@ import Root from './root.component';
 const vueLifecycles = singleSpaVue({
   Vue,
   appOptions: {
-    el: domElementGetter(),
+    el: '#app3',
     template: '<div id="app3"><root></root></div>',
     components: {
       root: Root,
